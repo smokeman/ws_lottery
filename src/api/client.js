@@ -92,7 +92,7 @@ const CHAT={
 		//连接websocket后端服务器
 		// this.socket = io.connect('wss://node.redream.cn');
 		// this.socket = io.connect('ws://115.159.189.179:8888');
-		this.socket = io.connect('ws://192.168.1.101:3333');
+		this.socket = io.connect('ws://115.159.189.179:3333');
 		
 		//告诉服务器端有用户登录
 		this.socket.emit('login', {userid:this.userid, username:this.username,color:this.color,weichat:this.weichat});
