@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "dev": "webpack-dev-server --host 192.168.1.101 --open --hot --config webpack.config.js",
+    "dev": "webpack-dev-server --host 115.159.189.179 --open --hot --config webpack.config.js",
     "build": "webpack --progress --hide-modules --config webpack.prod.config.js"
   },
   "author": "",
